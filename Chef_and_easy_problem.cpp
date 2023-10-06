@@ -13,7 +13,7 @@ int main(){
 
     }
     sort(arr,arr+n);
-    int ans=0;
+    long long ans=0;
     for(int i=n-1;i>=0;i=i-2){
         ans+=arr[i];
 
